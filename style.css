@@ -1,0 +1,85 @@
+/* General Page Setup */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Headings */
+h1, h2 {
+    color: #222;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Header Image */
+header img {
+    border-radius: 50%;
+    border: 2px solid #444;
+}
+
+/* Navigation Bar */
+nav {
+    margin: 15px 0;
+    padding: 10px;
+    background: #333;
+    border-radius: 8px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    background: white;
+}
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+table th {
+    background: #444;
+    color: white;
+}
+
+/* Progress Bars */
+progress {
+    width: 200px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+/* Lists */
+ul {
+    list-style: square;
+    margin-left: 20px;
+}
+
+/* Blockquote for quotes */
+blockquote {
+    font-style: italic;
+    color: #555;
+    border-left: 5px solid #aaa;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #666;
+}
