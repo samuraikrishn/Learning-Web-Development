@@ -1,0 +1,125 @@
+/* Basic Dark Theme Portfolio */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #0d1117;
+  color: #c9d1d9;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  background: #161b22;
+  padding: 25px;
+  text-align: center;
+  border-bottom: 1px solid #30363d;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 2px solid #58a6ff;
+  object-fit: cover;
+}
+
+/* Navigation */
+.nav {
+  margin-top: 15px;
+}
+
+.nav a {
+  color: #58a6ff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+.section {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #161b22;
+  border-radius: 8px;
+  border: 1px solid #30363d;
+}
+
+.section h2 {
+  color: #58a6ff;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #30363d;
+  padding-bottom: 5px;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #30363d;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background: #21262d;
+  color: #58a6ff;
+}
+
+/* Lists */
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+/* Project Grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.project-card {
+  background: #21262d;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  border-top: 1px solid #30363d;
+  color: #8b949e;
+  background: #0d1117;
+  margin-top: 30px;
+}
