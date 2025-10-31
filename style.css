@@ -1,4 +1,4 @@
-/* Basic Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +6,6 @@
   font-family: Arial, sans-serif;
 }
 
-/* Header */
 header {
   background-color: #004aad;
   color: white;
@@ -27,7 +26,6 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Sections */
 section {
   text-align: center;
   padding: 30px 20px;
@@ -44,7 +42,6 @@ img {
   margin-bottom: 15px;
 }
 
-/* Table */
 table {
   margin: 0 auto;
   border-collapse: collapse;
@@ -61,7 +58,6 @@ th {
   color: white;
 }
 
-/* Projects */
 .project-box {
   border: 1px solid #ccc;
   width: 50%;
@@ -71,7 +67,6 @@ th {
   background-color: #f9f9f9;
 }
 
-/* Contact */
 form table {
   width: 60%;
   margin: 0 auto;
@@ -97,14 +92,13 @@ button:hover {
   background-color: #003380;
 }
 
-/* Horizontal Line */
 hr {
   border: 0;
   border-top: 2px solid #ddd;
   margin: 20px 0;
 }
 
-/* Back to Top */
+
 #backToTop {
   display: block;
   text-align: center;
